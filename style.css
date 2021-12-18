@@ -1,0 +1,48 @@
+body{
+  display:block;  
+  margin: auto;
+  background-color:rgb(164, 231, 179);
+}
+
+h1:hover{
+  color: blue;
+}
+h1{
+margin-top: 4rem;
+text-align: center;
+font-size:30px;
+font-weight: bold;    
+}
+input,label{
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  border-color: rgb(166, 125, 204);
+  
+}
+label{
+  font-size:20px;
+  font-weight: bold;
+  text-align: center;
+}
+button{
+  display: block;
+  margin: auto;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(100, 29, 85);
+  color: aliceblue;
+  font-size: 1rem;
+}
+button:hover{
+  background-color: cornflowerblue;
+}
+#output{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
